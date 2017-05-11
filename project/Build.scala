@@ -13,7 +13,7 @@ object Build extends sbt.Build{
       Defaults.defaultSettings ++ assemblySettings ++ Seq(
       organization  := "com.example",
       version       := "0.1",
-      scalaVersion  := "2.10.2",
+      scalaVersion  := "2.10.6",
 
       resolvers ++= Seq(
         "typesafe repo"      at "http://repo.typesafe.com/typesafe/releases/",
