@@ -21,7 +21,7 @@ object Build extends sbt.Build{
         Resolver.sonatypeRepo("snapshots")
       ),
       libraryDependencies ++= Seq(
-        "org.ow2.asm" % "asm-debug-all" % "4.1",
+        "org.ow2.asm" % "asm-debug-all" % "5.2",
         "org.scalatest" % "scalatest_2.10" % "2.0" % "test",
         "org.mozilla" % "rhino" % "1.7R4",
         "com.nativelibs4java" % "scalaxy-loops_2.10" % "0.3-SNAPSHOT" % "provided"
